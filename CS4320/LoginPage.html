@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartMoney</title>
+  <link rel="stylesheet" href="LoginPageStyle.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">SmartMoney</div>
+
+    <div class="auth-buttons">
+      <button id="loginBtn">Login</button>
+      <button id="signupBtn">Signup</button>
+    </div>
+  </nav>
+
+  <section class="auth-section" id="authSection">
+    <div class="form-container" id="formContainer">
+      <form class="login-form active" id="loginForm">
+        <h2>Login</h2>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Login</button>
+      </form>
+      <form class="signup-form" id="signupForm">
+        <h2>Signup</h2>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

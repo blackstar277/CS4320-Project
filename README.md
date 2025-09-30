@@ -1,4 +1,4 @@
-SmartMoney 
+MyWallet
 
 A modern and intuitive money management app that helps users track their spending, set budgets, and gain control over their finances. This project is built to promote better financial habits through data visualization and budgeting tools.
 

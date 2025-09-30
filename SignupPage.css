@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7fb;
+  color: #333;
+}
+
+.navbar {
+  background: #1e2a38;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.auth-buttons button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #4ea1d3;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.auth-buttons button.active {
+  background: #3b8bbd;
+}
+
+
+.auth-section {
+  background: white;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+.form-container {
+  position: relative;
+}
+form {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+}
+form.active {
+  display: flex;
+}
+form input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+form button {
+  padding: 0.75rem;
+  background: #4ea1d3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #3b8bbd;
+}
+

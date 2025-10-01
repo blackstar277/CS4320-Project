@@ -2,6 +2,8 @@ MyWallet
 
 A modern and intuitive money management app that helps users track their spending, set budgets, and gain control over their finances. This project is built to promote better financial habits through data visualization and budgeting tools.
 
+GitHub Test Iteration Link: https://blackstar277.github.io/CS4320-Project/LandingPage.html
+
 -------------------------------------------------------------------
 🛠 Tech Stack
 
